@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VAULT 66</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer type="module" src="index.js"></script>
+    <script defer type="module" src="utils/domSelects.js"></script>
+    <script defer type="module" src="/utils/textAnimation.js"></script>
+    <script defer type="module" src="/utils/specialAssign.js"></script>
+    <script defer type="module" src="/utils/eventHandlers.js"></script>
+  </head>
+  <body>
+    <div class="fallout-container old-crt-monitor">
+      <header>
+        <h1 class="vault-name">vault 66</h1>
+        <nav id="navbar" role="navigation">
+          <ul class="hidden nav-elements">
+            <li><a>S.P.E.C.I.A.L</a></li>
+            <li><a>TERMINAL</a></li>
+            <li><a>DWELLERS</a></li>
+            <li><a>VAULTS</a></li>
+            <li><a>PLACEHOLDER</a></li>
+          </ul>
+        </nav>
+        <h2 class="register-button">REGISTER</h2>
+      </header>
+      <main>
+        <!--  -->
+        <h3 class="welcome-text">welcome to robco industries (tm) termlink</h3>
+        <h3 class="login-button">LOGIN</h3>
+        <section class="register-form">
+          <form action="" class="register-form-inputs hidden">
+            <div class="input-container">
+              <label for="register-name">NAME</label>
+              <input type="text" id="register-name" name="name" />
+            </div>
+            <div class="input-container">
+              <label for="password-register">ENTER PASSWORD</label>
+              <input type="password" id="password-register" name="password" />
+            </div>
+            <div class="input-container">
+              <label for="confirm-password-register">CONFIRM</label>
+              <input
+                type="password"
+                id="confirm-password-register"
+                name="password-confirm"
+              />
+            </div>
+            <button class="submit-register-button" type="submit">></button>
+          </form>
+          <!--  -->
+          <!--  -->
+          <div class="login-form hidden">
+            <form action="">
+              <div class="input-container">
+                <label for="name">NAME</label>
+                <input type="text" id="name-login" />
+              </div>
+              <div class="input-container">
+                <label for="password">ENTER PASSWORD</label>
+                <input type="password" id="password-login" />
+              </div>
+              <button class="submit-login-button" type="submit">></button>
+            </form>
+          </div>
+
+          <!--  -->
+          <div class="special-welcome hidden">
+            <h2 class="special-name-greeting hidden">Hello, Name</h2>
+            <p class="special-remember hidden">Remember, you are special!</p>
+            <div class="special-inputs">
+              <div class="special-input-container">
+                <form action="" class="special-form hidden">
+                  <div class="special-input-container">
+                    <label for="strength"
+                      ><span class="special-first-letter">S</span>TRENGTH</label
+                    >
+                    <span
+                      ><i
+                        class="fa-solid fa-minus strength-minus special-icon"
+                      ></i
+                    ></span>
+                    <input type="number" id="strength" value="5" readonly />
+                    <span
+                      ><i
+                        class="fa-solid fa-plus strength-plus special-icon"
+                      ></i
+                    ></span>
+                  </div>
+
+                  <div class="special-input-container">
+                    <label for="perception"
+                      ><span class="special-first-letter">P</span
+                      >ERCEPTION</label
+                    >
+                    <span
+                      ><i
+                        class="fa-solid fa-minus perception-minus special-icon"
+                      ></i
+                    ></span>
+                    <input type="number" id="perception" value="5" readonly />
+                    <span
+                      ><i
+                        class="fa-solid fa-plus perception-plus special-icon"
+                      ></i
+                    ></span>
+                  </div>
+                  <div class="special-input-container">
+                    <label for="endurance"
+                      ><span class="special-first-letter">E</span
+                      >NDURANCE</label
+                    >
+                    <span
+                      ><i
+                        class="fa-solid fa-minus endurance-minus special-icon"
+                      ></i
+                    ></span>
+                    <input type="number" id="endurance" value="5" readonly />
+                    <span
+                      ><i
+                        class="fa-solid fa-plus endurance-plus special-icon"
+                      ></i
+                    ></span>
+                  </div>
+                  <div class="special-input-container">
+                    <label for="charisma"
+                      ><span class="class special-first-letter">C</span
+                      >HARISMA</label
+                    >
+                    <span
+                      ><i
+                        class="fa-solid fa-minus charisma-minus special-icon"
+                      ></i
+                    ></span>
+                    <input type="number" id="charisma" value="5" readonly />
+                    <span
+                      ><i
+                        class="fa-solid fa-plus charisma-plus special-icon"
+                      ></i
+                    ></span>
+                  </div>
+                  <div class="special-input-container">
+                    <label for="intelligence"
+                      ><span class="class special-first-letter">I</span
+                      >NTELLIGENCE</label
+                    >
+                    <span
+                      ><i
+                        class="fa-solid fa-minus intelligence-minus special-icon"
+                      ></i
+                    ></span>
+                    <input type="number" id="intelligence" value="5" readonly />
+                    <span
+                      ><i
+                        class="fa-solid fa-plus intelligence-plus special-icon"
+                      ></i
+                    ></span>
+                  </div>
+                  <div class="special-input-container">
+                    <label for="agility"
+                      ><span class="class special-first-letter">A</span
+                      >GILITY</label
+                    >
+                    <span
+                      ><i
+                        class="fa-solid fa-minus agility-minus special-icon"
+                      ></i
+                    ></span>
+                    <input type="number" id="agility" value="5" readonly />
+                    <span
+                      ><i class="fa-solid fa-plus agility-plus special-icon"></i
+                    ></span>
+                  </div>
+                  <div class="special-input-container">
+                    <label for="luck"
+                      ><span class="class special-first-letter">L</span
+                      >UCK</label
+                    >
+                    <span
+                      ><i class="fa-solid fa-minus luck-minus special-icon"></i
+                    ></span>
+                    <input type="number" id="luck" value="5" readonly />
+                    <span
+                      ><i class="fa-solid fa-plus luck-plus special-icon"></i
+                    ></span>
+                  </div>
+                  <button class="submit-special" type="submit">></button>
+                  <p class="special-remaining hidden">5</p>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer-text">
+        <p>
+          industries unified operating system copyright 2075-2077 robco
+          industries
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
