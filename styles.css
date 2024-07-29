@@ -239,7 +239,7 @@ h2 {
   display: grid;
   grid-template-columns: 1fr auto auto auto;
   align-items: center;
-  gap: 25px;
+  gap: 37px;
 }
 .special-input-container label {
   color: #0d7738;
