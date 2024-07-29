@@ -1,0 +1,103 @@
+$primary-color: #14271a;
+$secondary-color: #87f1b4;
+$background-color: #111;
+$additional-color: #0d7738;
+
+:root {
+  font-family: 'VT323', monospace;
+  font-weight: 400;
+  scrollbar-color: $primary-color $secondary-color;
+  font-size: clamp(18px, 3vw, 30px);
+}
+
+/* #073605
+   #0e4e0b
+   #145b11
+   #146c11
+   #199515 
+   */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove arrows for numeric input            */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: $background-color;
+}
+
+.fallout-container {
+  width: 90vw;
+  height: 90vh;
+  overflow: hidden;
+  display: grid;
+  padding: 0.5rem;
+  border: #02170a;
+  color: $primary-color;
+  mask-image: linear-gradient(to bottom, #0005 50%, #000 50%);
+  mask-size: 100% 2px;
+  text-shadow: 0 0 0.1.5rem;
+  grid-template-rows: auto 1fr auto;
+}
+
+@keyframes crtAnimation {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 0 10000%;
+  }
+}
+
+.old-crt-monitor {
+  box-shadow: inset 0px 0px 2rem;
+  background-image: linear-gradient(0deg, #0000 10%, #fff1 90%, #0000 100%);
+  animation: crtAnimation 100s linear infinite;
+  background-size: 100% 80%;
+}
+
+main {
+  overflow: hidden;
+}
+
+.welcome-text {
+  display: flex;
+  justify-content: center;
+  color: $secondary-color;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 3rem;
+}
+
+.login-button {
+  margin-top: 5rem;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $secondary-color;
+  text-transform: uppercase;
+}
+
+.login-button:hover {
+  background-color: $primary-color;
+  background-size: auto 100%;
+}
+
+.hidden {
+  display: none;
+}

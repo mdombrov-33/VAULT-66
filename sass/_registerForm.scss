@@ -1,0 +1,16 @@
+.register-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.register-form input {
+  display: block;
+}
+
+.register-form label {
+  color: $secondary-color;
+  font-size: 2rem;
+}

@@ -1,0 +1,58 @@
+header,
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li a {
+  text-decoration: none;
+  color: $secondary-color;
+  margin: 20px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li:hover {
+  background-color: $primary-color;
+}
+
+footer {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.register-button {
+  background-color: $secondary-color;
+  color: $primary-color;
+  padding: 5px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.register-button:hover {
+  background-color: $primary-color;
+  color: $secondary-color;
+}
+
+nav .register-button:hover {
+  background-color: $primary-color;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: $secondary-color;
+}
+
+.footer-text {
+  color: $secondary-color;
+  text-transform: uppercase;
+}

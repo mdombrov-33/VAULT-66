@@ -1,0 +1,29 @@
+form input:focus {
+  outline: none;
+  border: 1px solid $primary-color;
+}
+
+form input {
+  width: 500px;
+  height: 75px;
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border: 2px solid $secondary-color;
+  box-shadow: inset 1px 1px $primary-color;
+  border-radius: 15px;
+  background-color: transparent;
+  color: $secondary-color;
+}
+
+button[type='submit'] {
+  height: 2rem;
+  width: 1rem;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  display: block;
+  background-color: transparent;
+  color: $secondary-color;
+  border: none;
+  border-radius: 15px;
+}

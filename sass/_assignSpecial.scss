@@ -1,0 +1,66 @@
+.special-welcome h2 {
+  font-size: 4rem;
+}
+
+.special-welcome p {
+  font-size: 2rem;
+}
+
+.special-welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.special-input-container {
+  display: grid;
+  grid-template-columns: 1fr auto auto auto;
+  align-items: center;
+  gap: 37px;
+}
+
+.special-form label {
+  color: $additional-color !important;
+}
+
+.special-icon {
+  color: $additional-color;
+}
+.special-input-container input {
+  width: 2rem;
+  height: 1.8rem;
+  margin: 0;
+  font-size: 1.3rem;
+  padding: 5px;
+  align-items: center;
+  background-color: transparent;
+  color: $secondary-color;
+  border-radius: 50%;
+  border: 2px solid $secondary-color;
+  text-align: center;
+}
+
+.special-input-container input:focus {
+  border: 2px solid $secondary-color;
+}
+
+.special-input-container input:focus {
+  outline: none;
+}
+
+.special-remaining {
+  width: fit-content;
+  position: absolute;
+  bottom: 3.7rem;
+}
+
+.special-welcome p,
+h2 {
+  color: $secondary-color;
+  text-transform: uppercase;
+}
+
+.special-first-letter {
+  color: $secondary-color;
+}
