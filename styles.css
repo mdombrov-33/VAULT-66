@@ -262,6 +262,10 @@ h2 {
   text-align: center;
 }
 
+.special-input-container input:focus {
+  border: 2px solid var(--secondary-color);
+}
+
 /* #073605
    #0e4e0b
    #145b11
