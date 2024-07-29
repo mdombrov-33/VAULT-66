@@ -20,25 +20,30 @@
   gap: 37px;
 }
 
-.special-form label {
-  color: $additional-color !important;
+.special-form {
+  label {
+    color: $additional-color !important;
+  }
 }
 
 .special-icon {
   color: $additional-color;
 }
-.special-input-container input {
-  width: 2rem;
-  height: 1.8rem;
-  margin: 0;
-  font-size: 1.3rem;
-  padding: 5px;
-  align-items: center;
-  background-color: transparent;
-  color: $secondary-color;
-  border-radius: 50%;
-  border: 2px solid $secondary-color;
-  text-align: center;
+
+.special-input-container {
+  input {
+    width: 2rem;
+    height: 1.8rem;
+    margin: 0;
+    font-size: 1.3rem;
+    padding: 5px;
+    align-items: center;
+    background-color: transparent;
+    color: $secondary-color;
+    border-radius: 50%;
+    border: 2px solid $secondary-color;
+    text-align: center;
+  }
 }
 
 .special-input-container input:focus {
@@ -55,10 +60,12 @@
   bottom: 3.7rem;
 }
 
-.special-welcome p,
-h2 {
-  color: $secondary-color;
-  text-transform: uppercase;
+.special-welcome {
+  p,
+  h2 {
+    color: $secondary-color;
+    text-transform: uppercase;
+  }
 }
 
 .special-first-letter {

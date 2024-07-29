@@ -153,7 +153,7 @@ main {
 }
 
 .special-welcome p,
-h2 {
+.special-welcome h2 {
   color: #87f1b4;
   text-transform: uppercase;
 }

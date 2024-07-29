@@ -3,17 +3,19 @@ form input:focus {
   border: 1px solid $primary-color;
 }
 
-form input {
-  width: 500px;
-  height: 75px;
-  margin: 0.5rem 0;
-  font-size: 1.5rem;
-  padding: 0.5rem;
-  border: 2px solid $secondary-color;
-  box-shadow: inset 1px 1px $primary-color;
-  border-radius: 15px;
-  background-color: transparent;
-  color: $secondary-color;
+form {
+  input {
+    width: 500px;
+    height: 75px;
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border: 2px solid $secondary-color;
+    box-shadow: inset 1px 1px $primary-color;
+    border-radius: 15px;
+    background-color: transparent;
+    color: $secondary-color;
+  }
 }
 
 button[type='submit'] {

@@ -5,14 +5,18 @@ footer {
   justify-content: space-between;
 }
 
-li a {
-  text-decoration: none;
-  color: $secondary-color;
-  margin: 20px;
+li {
+  a {
+    text-decoration: none;
+    color: $secondary-color;
+    margin: 20px;
+  }
 }
 
-nav li {
-  display: inline-block;
+nav {
+  li {
+    display: inline-block;
+  }
 }
 
 nav li:hover {

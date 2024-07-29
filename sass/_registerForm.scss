@@ -6,11 +6,15 @@
   height: 100%;
 }
 
-.register-form input {
-  display: block;
+.register-form {
+  input {
+    display: block;
+  }
 }
 
-.register-form label {
-  color: $secondary-color;
-  font-size: 2rem;
+.register-form {
+  label {
+    color: $secondary-color;
+    font-size: 2rem;
+  }
 }
