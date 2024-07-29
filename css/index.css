@@ -91,11 +91,6 @@ main {
   overflow: hidden;
 }
 
-footer p {
-  color: #87f1b4;
-  text-transform: uppercase;
-}
-
 footer {
   display: flex;
   gap: 2rem;
