@@ -19,8 +19,10 @@ nav {
   }
 }
 
-nav li:hover {
-  background-color: $primary-color;
+nav {
+  li:hover {
+    background-color: $primary-color;
+  }
 }
 
 footer {
