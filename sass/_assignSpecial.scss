@@ -71,3 +71,11 @@
 .special-first-letter {
   color: $secondary-color;
 }
+
+.special-input-container {
+  label {
+    span {
+      color: $secondary-color;
+    }
+  }
+}

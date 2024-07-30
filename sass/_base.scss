@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
-$primary-color: #14271a;
-$secondary-color: #87f1b4;
-$background-color: #111;
-$additional-color: #0d7738;
 
 :root {
   font-family: 'VT323', monospace;
@@ -33,9 +29,7 @@ input::-webkit-inner-spin-button {
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexCenter();
   height: 100vh;
   background-color: $background-color;
 }
@@ -76,23 +70,19 @@ main {
 }
 
 .welcome-text {
+  @include textUppColor();
   display: flex;
   justify-content: center;
-  color: $secondary-color;
   font-size: 2rem;
   text-align: center;
-  text-transform: uppercase;
   margin-top: 3rem;
 }
 
 .login-button {
+  @include flexCenter();
+  @include textUppColor();
   margin-top: 5rem;
   font-size: 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: $secondary-color;
-  text-transform: uppercase;
 }
 
 .login-button:hover {

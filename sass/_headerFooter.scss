@@ -48,11 +48,9 @@ header {
 }
 
 h1 {
-  text-transform: uppercase;
-  color: $secondary-color;
+  @include textUppColor();
 }
 
 .footer-text {
-  color: $secondary-color;
-  text-transform: uppercase;
+  @include textUppColor();
 }

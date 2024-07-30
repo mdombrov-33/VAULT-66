@@ -68,23 +68,23 @@ main {
 }
 
 .welcome-text {
+  text-transform: uppercase;
+  color: #87f1b4;
   display: flex;
   justify-content: center;
-  color: #87f1b4;
   font-size: 2rem;
   text-align: center;
-  text-transform: uppercase;
   margin-top: 3rem;
 }
 
 .login-button {
-  margin-top: 5rem;
-  font-size: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #87f1b4;
   text-transform: uppercase;
+  color: #87f1b4;
+  margin-top: 5rem;
+  font-size: 3rem;
 }
 
 .login-button:hover {
@@ -164,6 +164,10 @@ main {
   color: #87f1b4;
 }
 
+.special-input-container label span {
+  color: #87f1b4;
+}
+
 form input:focus {
   outline: none;
   border: 1px solid #14271a;
@@ -196,9 +200,9 @@ button[type=submit] {
 
 .register-form {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
   height: 100%;
 }
 
@@ -262,6 +266,6 @@ h1 {
 }
 
 .footer-text {
-  color: #87f1b4;
   text-transform: uppercase;
+  color: #87f1b4;
 }
