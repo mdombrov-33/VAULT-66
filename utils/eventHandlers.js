@@ -56,7 +56,7 @@ elementsLocation.specialSubmit.addEventListener('click', e => {
 });
 
 //! Login button on main screen
-elementsLocation.loginButton.addEventListener('click', e => {
+elementsLocation.loginButton.addEventListener('click', () => {
   elementsLocation.registerButton.classList.add('hidden');
   elementsLocation.welcomeText.classList.add('hidden');
   elementsLocation.loginButton.classList.add('hidden');
