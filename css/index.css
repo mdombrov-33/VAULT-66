@@ -198,7 +198,7 @@ button[type=submit] {
   border-radius: 15px;
 }
 
-.register-form {
+.main-screen {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -206,11 +206,11 @@ button[type=submit] {
   height: 100%;
 }
 
-.register-form input {
+.main-screen input {
   display: block;
 }
 
-.register-form label {
+.main-screen label {
   color: #87f1b4;
   font-size: 2rem;
 }

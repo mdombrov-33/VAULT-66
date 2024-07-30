@@ -1,16 +1,16 @@
-.register-form {
+.main-screen {
   @include flexCenter();
   flex-direction: row;
   height: 100%;
 }
 
-.register-form {
+.main-screen {
   input {
     display: block;
   }
 }
 
-.register-form {
+.main-screen {
   label {
     color: $secondary-color;
     font-size: 2rem;
